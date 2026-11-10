@@ -19,3 +19,13 @@ document.addEventListener('keydown',ev=>{if(ev.key==='Escape')document.querySele
 // Direct links may preselect the requested service without reloading the page.
 const wanted=new URLSearchParams(location.search).get('palvelu');
 if(wanted){document.querySelectorAll('select[name="palvelu"]').forEach(select=>{const match=[...select.options].find(option=>option.value===wanted||option.textContent.trim()===wanted);if(match)select.value=match.value})}
+
+// Täyttää ovihuollon palveluvalinnan ovihuolto-sivun tarjouslinkistä.
+(function () {
+  try {
+    const query = new URLSearchParams(window.location.search);
+    if (query.get('palvelu') !== 'ovihuolto') return;
+    const choice = document.querySelector('select[name="palvelu"]');
+    if (choice) choice.value = 'Ovien huolto ja tiivistys';
+  } catch (_) { /* sivusto toimii ilman URL-valintaakin */ }
+})();

@@ -47,3 +47,10 @@ Kaikki sivuston valokuva- ja AI-kuvitusosiot sekä kuva-assetit on poistettu. Li
 - Testaa kaikki kolme lomaketta ja niiden onnistumissivu. Puhelinnumeron ja tietojen vastaanoton toimivuutta ei voi vahvistaa paikallisesti.
 - Tarkista tietosuojaselosteen FormSubmit-käsittelytiedot ja lämpökuvauspalvelun käytännön toteutus ennen julkaisua.
 - Varmista markkinoinnin alkaessa kuvausolosuhteet, käytettävissä oleva kalusto ja palvelualueet.
+
+
+## Ovien huolto ja tiivistys (uusi palvelu)
+- Sivulle `ovien-huolto-ja-tiivistys.html` pääsee palveluvalikosta, etusivulta sekä alatunnisteesta.
+- Tarjouslomakkeessa voi valita `Ovien huolto ja tiivistys`.
+- Palvelun soveltuvuus ja tarkka työn sisältö määritetään aina ovimallin ja kunnon mukaan.
+- GitHub Pages -julkaisuun riittää kaikkien tiedostojen siirtäminen repositorion juureen.
