@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /kiitos.html
+Sitemap: https://linmate.fi/sitemap.xml
