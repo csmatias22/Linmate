@@ -65,3 +65,138 @@ input:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-vis
 .door-faq details p { margin:12px 0 0; }
 .text-link { display:inline-block; margin-top:12px; color:#154d3a; font-weight:650; }
 @media(max-width:760px){ .doors-highlight-layout { grid-template-columns:1fr; } .doors-benefits { padding:22px; } }
+
+
+/* LINMATE – HUOLTO VAI REMONTTI */
+
+.linmate-solutions {
+  margin-top: 48px;
+  border-top: 1px solid #dce5de;
+}
+
+.linmate-solution {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  gap: 28px;
+  padding: 38px 0;
+  border-bottom: 1px solid #dce5de;
+}
+
+.linmate-solution-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: #eaf1eb;
+  color: #285c46;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.linmate-solution-content {
+  max-width: 780px;
+}
+
+.linmate-solution-content h3 {
+  margin: 0 0 14px;
+  color: #172b22;
+  font-size: clamp(23px, 2.5vw, 30px);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.linmate-solution-content p {
+  margin: 0;
+  color: #43554b;
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+.linmate-solution-note {
+  margin-top: 20px;
+  padding-left: 17px;
+  border-left: 3px solid #54846c;
+  color: #456b55;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ALAREUNAN TOIMINTAKEHOTE */
+
+.linmate-solutions-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 48px;
+  padding: 36px 40px;
+  background: #edf3ed;
+  border-radius: 18px;
+}
+
+.linmate-solutions-cta h3 {
+  margin: 0 0 10px;
+  color: #172b22;
+  font-size: clamp(22px, 2.5vw, 28px);
+  line-height: 1.25;
+}
+
+.linmate-solutions-cta p {
+  max-width: 620px;
+  margin: 0;
+  color: #4a5d51;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.linmate-solutions-cta .btn {
+  flex-shrink: 0;
+}
+
+/* MOBIILINÄKYMÄ */
+
+@media (max-width: 768px) {
+
+  .linmate-solutions {
+    margin-top: 30px;
+  }
+
+  .linmate-solution {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 30px 0;
+  }
+
+  .linmate-solution-number {
+    width: 52px;
+    height: 52px;
+    border-radius: 13px;
+    font-size: 18px;
+  }
+
+  .linmate-solution-content h3 {
+    font-size: 23px;
+  }
+
+  .linmate-solution-content p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .linmate-solutions-cta {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    padding: 28px 24px;
+    margin-top: 32px;
+  }
+
+  .linmate-solutions-cta .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+}
