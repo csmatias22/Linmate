@@ -200,3 +200,13 @@ input:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-vis
     justify-content: center;
   }
 }
+@media (max-width: 768px) {
+  .nav-dropdown,
+  .dropdown-toggle {
+    text-align: center;
+  }
+
+  .dropdown-toggle {
+    justify-content: center;
+  }
+}
